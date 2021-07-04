@@ -144,9 +144,24 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
-    float: right;
+    margin-right: -1em;
     z-index: 1;
+}
+
+.nav-contact .navcontact {
+    margin-right: 10em;
+    list-style: none;
+    font-size: 16px;
+}
+
+.nav-contact .navcontact a {
+  
+    text-decoration: none;
+    padding: 1em;
+}
+
+.nav-contact .navcontact li {
+    padding-bottom: 3em;
 }
 
 .nav > li {
@@ -324,9 +339,9 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, 0.2em);
     box-shadow: none;
-    width: 90%;
+    width: 100%;
     min-height: 25px;
     margin: 5px 5px 15px 2px;
     border-radius: 5px;
@@ -475,6 +490,13 @@ p,a {
     max-width: 1000px;
 }
 
+.container .row .sn-7 p{
+    text-align: center;
+    padding-top: 1em;
+    padding-left: 2em;
+    font-size: 20px;
+}
+
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -514,6 +536,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .social {
@@ -523,7 +546,6 @@ p {
     margin: auto auto auto auto;
     padding-top: 5px;
 }
-
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -545,7 +567,6 @@ h3 {
 h1 {
     color: #333333!important;
 }
-
 
 .icons {
     margin-bottom: 14px;
@@ -642,14 +663,19 @@ h1 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px){
     .bloc {
-        padding-left: 20px;
+        padding-left: 40px;
         padding-right: 20px;
     }
     .bloc.full-width-bloc,.bloc-tile-2.full-width-bloc .container,.bloc-tile-3.full-width-bloc .container,.bloc-tile-4.full-width-bloc .container {
         padding-left: 0;
         padding-right: 0;
+    }
+    .navbar .nav {
+        padding-top: 2px;
+        margin-right: 2em;
+        z-index: 1;
     }
 }
 
@@ -679,7 +705,7 @@ h1 {
         width: 100%;
     }
     .form-control {
-        width: 80%;
+        width: 100%;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -689,8 +715,8 @@ h1 {
         position: relative;
     }
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 40px;
+        padding-right: 20px;
     }
     .bloc-group,.bloc-group .bloc {
         display: block;
