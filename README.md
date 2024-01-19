@@ -1,4 +1,7 @@
-# Scénario :  
+#  Optimisez un site web
+
+Scénario :  
+
 Vous travaillez pour La chouette agence, une grande agence de web design basée à Lyon.
 L’activité de l’entreprise a bien démarré mais aujourd’hui, elle est en perte de vitesse. Eh oui, la
 concurrence est rude. La fondatrice de l’entreprise, Sophie, cherche une solution pour faire
